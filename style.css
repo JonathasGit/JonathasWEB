@@ -29,7 +29,7 @@ li{
 }
 
 #sobre{ /*Aqui vai editar o Sobre mim */ 
-    background-color: teal;
+    background-color: black;
     color: white;
     font-family: 'Montserrat', sans-serif;
 
@@ -76,9 +76,8 @@ li{
 #nomeJonathas{ /* Parte sobre Jonathas*/
     text-align: left;
     margin-left: 100px;
-    font-family: 'montserrat', sans-serif;
-    color: tomato;
-    font-size: 50px;
+    /*font-family: 'montserrat', sans-serif;*/    
+    font-size: 80px;
     
 }
 
@@ -104,7 +103,7 @@ li{
 }
 
 #linhaDoTempo{
-    background-color: #252525;
+    background-color: #000000;
 }
 
 #txtLinhaDoTempo{
@@ -131,4 +130,16 @@ li{
     text-transform: uppercase;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: azure;
+}
+
+/*Imagem do Perfil*/
+
+#imagemPerfil{
+    width:  400px;
+    height: 400px;
+    margin-right: 100px;
+    margin-left: 110px;
+    float: left;
+
+    
 }

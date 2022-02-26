@@ -139,19 +139,19 @@ li{
 
 .div3{
     color: #ffffff;
-    margin: 80px;
+    margin: 70px;
     text-align: center;
 }
 
 .flex{
-      display: flex;
-    max-width: 300px; /*Reponsividade*/
-    align-items: center;
-    text-align: center;
+    display: flex;
+  max-width: 300px; /*Reponsividade*/
+  align-items: center;
+  text-align: center;
   
 }
 
 #numeros1{
-    font-size: 75px;
+    font-size: 74px;
 }
 

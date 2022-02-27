@@ -9,6 +9,6 @@ function count_up(ele, count_to, timer, i) {
 }
 $('.counter-up').each(function() {
 	count_to = parseInt($(this).data('countTo'));
-	timer = parseInt(2000/count_to);
+	timer = parseInt(5000/count_to);
 	count_up($(this), count_to, timer, 0)
 });

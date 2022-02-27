@@ -141,14 +141,18 @@ li{
     color: #ffffff;
     margin: 70px;
     text-align: center;
+    /*border: 2px solid red; ativar quando for testar o flex box*/
+    
 }
 
 .flex{
-  max-width: 300px; /*Reponsividade*/
+   /*Reponsividade*/
   align-items: center;
   text-align: center;
   display: flex;
-  
+  /*border: 2px solid green; Só para teste*/
+  justify-content: center;
+   
 }
 
 #numeros1{

@@ -9,75 +9,35 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a class="logo" href="/">Jonathas</a>
-            <!--Criação do Menu Hamburg-->
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-               
-            </div>
-
-
-
-            <!--Finalizando do Menu Hamburg-->
-
-
-
-            <ul class="nav-list">               
-                <li><a href="#inicio">Inicio</li>
-                <li><a href="#sobre">Sobre</li>
-                <li><a href="#servico-menu">Serviços</li>
-                <li><a href="#portfolio-menu">Experiência</li>
-                <li><a href="#contato-menu">Contato</li>  
-                 
-    
-            </ul>    
-        </nav>
-
-
-
-
-
-
-
-
-
-
-
-
-
-       <!--<nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="#">
-                <img src="./Imagens/Logo cinza.png" class="">
-            </a>
-            <ul class="navbar-nav">
-                <div class="collapse navbar-collapse">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#inicio" id=cores>Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre" id=cores>Sobre Mim</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#servico-menu" id=cores>Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio-menu" id=cores>Portfólio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#linhaDoTempo" id=cores>Linha do Tempo</a>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="#">
+            <img src="./Imagens/Logo cinza.png" class="">
+        </a>
+        <ul class="navbar-nav">
+            <div class="collapse navbar-collapse">
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio" id=cores>Inicio</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre" id=cores>Sobre Mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servico-menu" id=cores>Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio-menu" id=cores>Portfólio</a>
+                </li>
+                <!--<li class="nav-item">
+                    <a class="nav-link" href="#linhaDoTempo" id=cores>Linha do Tempo</a>
+
+                </li>-->
                 <li class="nav-item">
                     <a class="nav-link" href="#contato-menu" id=cores>Contato</a>
                 </li>
         </ul>
+
         </div>
-    </nav> --> 
-    </header>
-    <main></main>
+    </nav>
 
     <section id="inicio">
         <div class="container.fluid  text-center margin quem-somos">
@@ -94,7 +54,7 @@
             <h3 id=nomeJonathas>Jonathas de Jesus</h3><br>
             <p>Opa! Me chamo Jonathas de Jesus, sou Desenvolvedor Web.<br>
                 Sou formado pela ETEC em Técnico em Informática para Internet
-                e estou cursando o 4° Semestre em ADS
+                 e estou cursando o 4° Semestre em ADS
                 (Anhanguera). <br>
                 Trabalho com desenvolvimento de sites institucionais, lojas virtuais e one pages a 9 meses.<br>
                 Gosto de aprender e criar sites, sempre busco novos desafios.<br>
@@ -128,78 +88,72 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <h3 id="TituloPortfolio">Site Institucional</h3>
-                        <a href="https://advocaciacriminal.online/" target="_blank"><img
-                                src="./Imagens/Site Institucional/1 - Advocacia criminal.png" width="100%"
-                                id="FotoSite1"><br></a>
-                        <br>
-                        <p id="txtDoPortfolio">Site Institucional, com tela inicio, sobre, atuação, contato e blog.
-                            Feita em Wordpress e Elementor PRO </p>
+                        <a href="https://advocaciacriminal.online/" target="_blank"><img src="./Imagens/Site Institucional/1 - Advocacia criminal.png" width="100%" id="FotoSite1"><br></a> 
+                                <br>
+                                <p id="txtDoPortfolio">Site Institucional, com tela inicio, sobre, atuação, contato e blog. 
+                                    Feita em Wordpress e Elementor PRO </p>
                     </div>
                     <div class="col-lg-4">
                         <h3 id="TituloPortfolio">One page</h3>
                         <a href="https://conectnow.com.br/" target="_blank">
-                            <img src="./Imagens/ConectNow.png" width="100%" id="FotoSite1"></a>
+                        <img src="./Imagens/ConectNow.png" width="100%" id="FotoSite1"></a>
                         <br><br>
                         <p id="txtDoPortfolio">Site One page, feito para apresentar a ferramenta ConectNow.
                             Site feito com Wordpress </p>
-
-
+                       
+                       
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4">                        
                         <h3 id="TituloPortfolio">One Page</h3>
                         <a href="http://aond.com.br/" target="_blank">
-                            <img src="./Imagens/Aond1.png" width="100%" id="FotoSite1"></a><br><br>
-                        <p id="txtDoPortfolio">One page bem elaborada, para divulgação de uma loja de aluguel de carros,
+                        <img src="./Imagens/Aond1.png" width="100%" id="FotoSite1"></a><br><br>
+                        <p id="txtDoPortfolio">One page bem elaborada, para divulgação de uma loja de aluguel de carros, 
                             o sistema foi feito em Bubble (Ferramenta No Code).
                         </p>
                     </div>
                     <div class="col-lg-4">
                         <h3 id="TituloPortfolio">Site Institucional</h3>
                         <a href="https://crystalcleanservicos.com.br/" target="_blank">
-                            <img src="./Imagens/CrystalClean.png" width="100%" id="FotoSite1"></a><br><br>
-                        <p id="txtDoPortfolio">Site Institucional criado para uma empresa que presta serviço de
-                            Higienização, estética automotiva,
+                        <img src="./Imagens/CrystalClean.png" width="100%" id="FotoSite1"></a><br><br>
+                        <p id="txtDoPortfolio">Site Institucional criado para uma empresa que presta serviço de Higienização, estética automotiva,
                             Polimento, lavagem técnica</p>
                     </div>
                 </div>
             </div>
         </div>
         </div>
-    </section>
+    </section> 
 
-    <section id="portfolio-menu">
+     <section id="portfolio-menu">
         <div class="container.fluid  text-center margin portfolio">
             <h3 id="SitesProdução">Sites que estou fazendo: </h3><br>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
                         <h3 id="TituloPortfolio">Site Institucional</h3><br>
-                        <a href="https://nmdrywall.com.br/" target="_blank"><img
-                                src="./Imagens/Site Institucional/NM.png" width="100%" id="FotoSite1"><br></a>
-                        <br>
-                        <p id="txtDoPortfolio">Site Institucional, com tela de inicio,
-                            sobre nós, página de Contato
-                            Pagina de todos serviços (+ 9 páginas de serviços)
-                            Feita em Wordpress e Elementor PRO <br>
-                            Total de 13 páginas.</p>
-                    </div>
+                        <a href="https://nmdrywall.com.br/" target="_blank"><img src="./Imagens/Site Institucional/NM.png" width="100%" id="FotoSite1"><br></a> 
+                                <br>
+                                <p id="txtDoPortfolio">Site Institucional, com tela de inicio, 
+                                    sobre nós, página de Contato
+                                    Pagina de todos serviços (+ 9 páginas de serviços)
+                                    Feita em Wordpress e Elementor PRO <br>  
+                                    Total de 13 páginas.</p>                                   
+                    </div>   
                     <div class="col-lg-4">
                         <h3 id="TituloPortfolio1">Site Institucional + Catalogo de Produtos</h3>
-                        <a href="https://modelos.sagittadigital.com.br/tinari" target="_blank"><img
-                                src="./Imagens/Tinari.png" width="100%" id="FotoSite1"><br></a>
-                        <br>
-                        <p id="txtDoPortfolio">Site Institucional + produtos + blog.
-                            Com as página inicio, sobre nós, produtos, contato, blog
-                            (página single produto e single post do blog)
-                            <br>
-                            Total de 7 páginas.
-                        </p>
-                    </div>
+                        <a href="https://modelos.sagittadigital.com.br/tinari" target="_blank"><img src="./Imagens/Tinari.png" width="100%" id="FotoSite1"><br></a> 
+                                <br>
+                                <p id="txtDoPortfolio">Site Institucional + produtos + blog. 
+                                    Com as página inicio, sobre nós, produtos, contato, blog 
+                                    (página single produto e single post do blog)
+                                     <br>  
+                                    Total de 7 páginas.</p>                                   
+                    </div>  
                 </div>
             </div>
         </div>
         </div>
-    </section>
+    </section> 
 
 
 
@@ -207,16 +161,16 @@
 
     <h1 id="conquistas">Minhas conquistas</h1>
 
-    <div class="flex">
+    <div class="flex">    
         <div class="div3">
-
-            <img src="./Imagens/projetos.png" width="70px" height="70px">
+            
+            <img src="./Imagens/projetos.png" width="70px" height="70px" >
             <p id="numeros1"><span class="counter-up" data-count-to="47"></span></p>
             <p>Projetos realizados</p>
         </div>
         <div class="div3">
             <img src="./Imagens/Clientes.png" width="70px" height="70px">
-            <p id="numeros1">41</p>
+            <p id="numeros1">41</p> 
             <p>Clientes satisfeitos</p>
         </div>
         <div class="div3">
@@ -229,31 +183,27 @@
             <p id="numeros1">48</p>
             <p>Repositórios no Github</p>
         </div>
+       
+    </div>  
 
-    </div>
-
-
-
+   
+   
 
     <section id="contato-menu">
         <div class="container.fluid  text-center margin portfolio">
             <h3>Contato</h3><br>
             <p>Entre em contato pelo nosso e-mail: <b style="color: #252525;">jothurinformatica@gmail.com</b> </p><br>
-            <p>Se quiser já pode preencer o Formulário para criação do seu site: <a
-                    href="https://forms.gle/CmH7Z9tfD9hpDj79A" target="_blank" style="color: #252525;">Acesse aqui</a>
-            </p>
-
+            <p>Se quiser já pode preencer o Formulário para criação do seu site: <a href="https://forms.gle/CmH7Z9tfD9hpDj79A" target="_blank" style="color: #252525;">Acesse aqui</a></p>
+        
             <button id='topoBtn'>Voltar ao topo</button>
         </div>
     </section>
-    <script src="mobile-navbar.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="./contador.js"></script>
     <script src="./button.js"></script>
 </body>
 <footer class="container-fluid text-center margin" id=rodape>
-    <p>&copy;2021-2022 Desenvolvido por <a href="https://github.com/JonathasGit/" target="_blank">Jonathas de Jesus
-        </a>- Todos os
+    <p>&copy;2021-2022 Desenvolvido por <a href="https://github.com/JonathasGit/" target="_blank">Jonathas de Jesus </a>- Todos os
         direitos reservados</p>
 </footer>
 

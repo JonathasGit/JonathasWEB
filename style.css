@@ -245,7 +245,7 @@ nav {
 }
 
 /*Fazendo o responsivo do menu*/
-@media (max-width: 999px){
+@media (max-width: 970px){
     body{
         overflow-x: hidden; /*Esconder o menu zuado la*/
 
